@@ -1,0 +1,10 @@
+import turtle
+alex = turtle.Turtle()
+side = int(input("Enter the number of sides you want in regular polygon\n"))
+length = float(input("Enter the length of each side\n"))
+i = 1
+for i in range (side):
+    alex.forward(length)
+    alex.left(360/side)
+    i =i+1
+turtle.mainloop()
